@@ -1,0 +1,92 @@
+.submission-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: white;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 20px;
+}
+
+#logo {
+  width: 50px;
+  background-color: #FFC301;
+  border-radius: 19px;
+}
+
+#html,
+body {
+  background-color: #F6F6F6;
+    font-family: 'Montserrat',
+        sans-serif;
+  /* height: 100vh; */
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#name, #message {
+  border: 1px solid #ebebeb;
+  border-radius: 6px;
+  padding: 1rem;
+  font-family: 'Montserrat',
+    sans-serif;
+    width: 10rem;
+
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+
+.page-label {
+  margin-top: 10px;
+  /* width: 100%; */
+}
+
+#buy-button {
+  background-color: #FFC301;
+  color: white;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 6px;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-self: center;
+  margin-top: 15px;
+  width: 10rem
+}
+
+#buy-button:hover {
+  background-color: #ffc401cf;
+}
+
+.footer {
+  /* background-color: #FFC301; */
+}
+
+.items-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tx-success {
+  margin-top: 20px;
+}
